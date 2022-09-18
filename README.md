@@ -28,7 +28,8 @@ I chose to use five different classification models:
 4. K nearest neighbor
 5. Support Vector Machine
 
-The score matrix containes the results each model's accuracy. Clearly- the Random forest classifier took the trophy with 84% accuracy score.
+The score matrix contains the results of each model's accuracy score. Clearly, the Random forest classifier takes the trophy with 84% accuracy score.
+
 Note: For the chosen optimal values of the KNN & Random Forest I've attached 2 distributions
 
 
