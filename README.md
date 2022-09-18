@@ -24,9 +24,17 @@ I chose to use five different classification models:
 4. K nearest neighbor
 5. Support Vector Machine
 
-The score matrix containes the results each model's accuracy.
+The score matrix containes the results each model's accuracy. Clearly- the Random forest classifier took the trophy with 84% accuracy score.
 Note: For the chosen optimal values of the KNN & Random Forest I've attached 2 distributions
 
-1. KNN ![K nearest neighbor optimal val](https://user-images.githubusercontent.com/94384079/190901398-ac6cbbe0-a214-477c-89e8-cfbcaa4fe6dc.PNG)
 
-2. Random forrest n_estimator ![optimal n_estimator for random forest classifier](https://user-images.githubusercontent.com/94384079/190901426-225268a8-82bd-4124-9563-2f6912b79a57.PNG)
+1. KNN 
+
+
+![K nearest neighbor optimal val](https://user-images.githubusercontent.com/94384079/190901398-ac6cbbe0-a214-477c-89e8-cfbcaa4fe6dc.PNG)
+
+
+2. Random forrest n_estimator 
+
+
+![optimal n_estimator for random forest classifier](https://user-images.githubusercontent.com/94384079/190901426-225268a8-82bd-4124-9563-2f6912b79a57.PNG)
