@@ -12,7 +12,11 @@ boolean value column with information about any column with missing values (e.g 
 in the added column: "age_was_missing" in row 2).
 After the dataset was ready to work with- I applied the Mutual Information methode for understanding which features were irrelevant, by understanding the dependance
 between any feature to our target column ('Survived'):
+
+
 ![mi scores features selecting](https://user-images.githubusercontent.com/94384079/190900365-ae96ca4e-0a9e-44ad-9a60-7002b3fc7611.PNG)
+
+
 Then I got rid of all the features with low correlation to our target column, and proceeded to one-hot encoding for the 'Name' coloumn when I figured there might be
 a strong relation between a respectable passanger (can be inferred by it's status) to the target column.
 That point was the last in the preprocessing procedure, and I was ready to train & validate my model.
